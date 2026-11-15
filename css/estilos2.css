@@ -1,0 +1,119 @@
+/*Font de google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu, sans-serif;
+}
+
+boyd{
+    width: 100%;
+}
+
+.logosite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 80px;
+    background-color: #E3E6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.itemnav{
+    display: flex;
+    flex: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.nav li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.nav a:hover {
+    color: #1E00FF;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1b2733;
+  margin: 0;
+  padding: 2px;
+}
+
+h1 {
+  margin: 0 0 4px;
+}
+
+.subtitulo {
+  color: #566878;
+  margin: 0 0 24px;}
+
+#contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  width: 210px;
+  background: #ffffff;
+  border: 1px solid #cfd8df;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card h3 {
+  margin: 0 0 8px;
+}
+
+.card p {
+  margin: 4px 0;
+}
+
+.categoria {
+  color: #566878;
+  font-size: 13px;
+}
+
+.resaltada{
+    color: #1b2733;
+    font-weight: bold;
+    background-color: lightblue;
+    border: 2px solid blue;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #6f00ff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}

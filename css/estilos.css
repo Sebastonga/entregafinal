@@ -235,3 +235,31 @@ grid1 img{
 .detaart12{
     background-color: blue;
 }
+
+.button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #2761F5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.grid2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contacto{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+}
